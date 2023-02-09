@@ -4,7 +4,7 @@ import { Translation } from "react-i18next";
 export const APPLICATION_NAME =
   (window._env_ && window._env_.REACT_APP_APPLICATION_NAME) ||
   process.env.REACT_APP_APPLICATION_NAME ||
-  "formsflow.ai";
+  "";
 //language details
 export const LANGUAGE =
   (window._env_ && window._env_.REACT_APP_LANGUAGE) ||

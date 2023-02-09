@@ -51,7 +51,7 @@ const NavBar = React.memo(() => {
 
   const selectLanguages = useSelector((state) => state.user.selectLanguages);
   const dispatch = useDispatch();
-  const logoPath = "/logo.svg";
+  const logoPath = "/immilogo.jpg";
   const getAppName = useMemo(
     () => () => {
       if (!MULTITENANCY_ENABLED) {
