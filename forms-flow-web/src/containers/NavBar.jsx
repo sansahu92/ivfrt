@@ -105,12 +105,11 @@ const NavBar = React.memo(() => {
               <img
                 className="img-fluid"
                 src={logoPath}
-                width="50"
+                width="250"
                 height="55"
                 alt="Logo"
               />
             </Link>
-            <div className="custom-app-name">{appName}</div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav " />
           {isAuthenticated ? (
