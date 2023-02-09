@@ -52,17 +52,6 @@ const NavBar = React.memo(() => {
   const selectLanguages = useSelector((state) => state.user.selectLanguages);
   const dispatch = useDispatch();
   const logoPath = "/immilogo.jpg";
-  const getAppName = useMemo(
-    () => () => {
-      if (!MULTITENANCY_ENABLED) {
-        return APPLICATION_NAME;
-      }
-      // TODO: Need a propper fallback component prefered a skeleton.
-      return applicationTitle || "";
-    },
-    [MULTITENANCY_ENABLED, applicationTitle]
-  );
-  const appName = getAppName();
   const { t } = useTranslation();
 
   useEffect(()=>{
