@@ -39,10 +39,10 @@
 <body class="${properties.kcBodyClass!}">
 <div class="${properties.kcLoginClass!}">
     
-    <div class="${properties.kcFormCardClass!}"><img src="https://149641023.v2.pressablecdn.com/wp-content/uploads/2021/08/logo.png"/>
+    <div class="${properties.kcFormCardClass!}"><img src="http://10.1.13.5/assests/img/immilogo.jpg"/>
     <br> <br>
     <div id="kc-header-wrapper"
-             class="${properties.kcHeaderWrapperClass!}"> IVFRT </div>
+             class="${properties.kcHeaderWrapperClass!}"> </div>
         <header class="${properties.kcFormHeaderClass!}">
             <#if realm.internationalizationEnabled  && locale.supported?size gt 1>
                 <div class="${properties.kcLocaleMainClass!}" id="kc-locale">
