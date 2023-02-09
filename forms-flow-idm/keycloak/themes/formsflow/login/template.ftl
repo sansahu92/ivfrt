@@ -42,7 +42,7 @@
     <div class="${properties.kcFormCardClass!}"><img src="https://149641023.v2.pressablecdn.com/wp-content/uploads/2021/08/logo.png"/>
     <br> <br>
     <div id="kc-header-wrapper"
-             class="${properties.kcHeaderWrapperClass!}"></div>
+             class="${properties.kcHeaderWrapperClass!}"> IVFRT </div>
         <header class="${properties.kcFormHeaderClass!}">
             <#if realm.internationalizationEnabled  && locale.supported?size gt 1>
                 <div class="${properties.kcLocaleMainClass!}" id="kc-locale">
