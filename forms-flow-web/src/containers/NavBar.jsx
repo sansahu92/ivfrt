@@ -110,7 +110,7 @@ const NavBar = React.memo(() => {
                 alt="Logo"
               />
             </Link>
-            <div style={{display:none}} className="custom-app-name">{appName}</div>
+            <div style={{display:'none'}} className="custom-app-name">{appName}</div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav " />
           {isAuthenticated ? (
