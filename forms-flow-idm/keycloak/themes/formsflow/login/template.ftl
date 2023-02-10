@@ -39,7 +39,7 @@
 <body class="${properties.kcBodyClass!}">
 <div class="${properties.kcLoginClass!}">
     
-    <div class="${properties.kcFormCardClass!}"><img src="http://10.1.13.5/assests/img/immilogo.jpg"/>
+    <div style="width:400px" class="${properties.kcFormCardClass!}"><img src="http://10.1.13.5/assests/img/immilogo.jpg"/>
     <br> <br>
     <div id="kc-header-wrapper"
              class="${properties.kcHeaderWrapperClass!}"> </div>
